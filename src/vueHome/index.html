@@ -6,20 +6,17 @@
     <link rel="stylesheet" href="../main.css" />
     <title>Home page</title>
   </head>
-  <body class="m-0 p-0 box-border font-serif">
+  <body class="m-0 p-0 box-border font-serif bg-green-100">
     <!-- header  -->
-    <section class="w-full bg-green-500 fixed">
+    <section class="w-full fixed top-0 z-10">
       <div
-        class="max-w-7xl mx-auto flex gap-10 justify-between items-center px-5 py-2"
+        class="max-w-7xl mx-auto flex gap-10 bg-green-500 justify-between items-center px-5 py-2"
       >
         <div class="px-5">
           <img src="./logo.png" class="w-10 h-10" alt="logo" />
         </div>
         <nav class="flex flex-row mx-5 gap-20">
-          <a
-            href="#"
-            class="text-xl font-bold text-white p-2 bg-green-700"
-          >
+          <a href="#" class="text-xl font-bold text-white p-2 bg-green-700">
             Home
           </a>
           <a
@@ -30,13 +27,26 @@
             Jobs</a
           >
           <a
-            href="#"
+            href="./addJob.html"
             class="text-xl font-bold text-white p-2 hover:bg-green-700"
             >Add-Job</a
           >
         </nav>
       </div>
+      <hr class="max-w-7xl mx-auto" />
     </section>
     <!-- herosection -->
+    <section class="max-w-7xl mx-auto bg-green-500 mt-14">
+      <div
+        class="flex w-4/5 mx-auto items-center gap-5 justify-center h-[50vh] flex-col gap"
+      >
+        <h1 class="font-bold text-3xl tracking-tighter text-white">
+            Become member  of our Team
+        </h1>
+        <p class="text-center text-white">
+            Find the best group that you can grow with and has a goal to make you grow
+        </p>
+      </div>
+    </section>
   </body>
 </html>
