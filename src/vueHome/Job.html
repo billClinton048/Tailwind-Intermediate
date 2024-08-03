@@ -7,21 +7,29 @@
     <title>Available jobs</title>
   </head>
   <body class="m-0 p-0 box-border font-serif">
+    <style>
+      #nav {
+        left: -1000px;
+      }
+      #nav.active {
+        left: 0;
+      }
+    </style>
     <!-- header  -->
-    <section class="w-full bg-green-500 fixed">
+    <section class="w-full fixed bg-green-500 shadow-2xl top-0 z-10">
       <div
         class="max-w-7xl mx-auto flex gap-10 justify-between items-center px-5 py-2"
       >
         <!-- logo section -->
-      <div class="px-5">
-        <a href="./index.html">
-      <img src="./logo.png" class="w-10 h-10" alt="logo" />
-    </a>
-    </div>
-        <nav class="flex flex-row mx-5 gap-20">
+        <div class="px-5 relative">
+          <a href="./index.html">
+            <img src="./media/logo.png" class="w-10 h-10" alt="logo" />
+          </a>
+        </div>
+        <!-- navbar -->
+        <nav class="hidden md:flex flex-row mx-5 gap-20">
           <a
             href="./index.html"
-            target="_self"
             class="text-xl font-bold text-white p-2 hover:bg-green-700"
           >
             Home
@@ -39,7 +47,265 @@
             >Add-Job</a
           >
         </nav>
+
+        <!-- phone navbar -->
+        <nav
+          id="nav"
+          class="absolute w-full h-[50vh] justify-center transition-all delay-1000 left-0 items-center top-12 py-5 bg-black flex flex-col gap-2 md:hidden"
+        >
+          <p>
+            <a
+              href="./index.html"
+              class="text-xl font-bold text-white p-2 hover:bg-green-700"
+            >
+              Home
+            </a>
+          </p>
+          <p>
+            <a
+              href="./Job.html"
+              target="_self"
+              class="text-xl font-bold text-white p-2 hover:bg-green-700"
+            >
+              Jobs</a
+            >
+          </p>
+          <a
+            href="./addJob.html"
+            class="text-xl font-bold text-white p-2 hover:bg-green-700"
+            >Add-Job</a
+          >
+        </nav>
+
+        <!-- HumbergerMenu icons -->
+        <div class="absolute right-10 md:hidden">
+          <img id="menu" src="./media/open.png" class="w-10" alt="logo" />
+        </div>
       </div>
     </section>
+
+    <section class="full mt-20 px-2 py-5 md:px-20">
+      <div class="w-full flex flex-wrap items-start pb-5 flex-col md:flex-row gap-8">
+        <!-- cardOne -->
+        <div
+          class="w-full bg-slate-50 px-5 rounded py-5 md:w-[30%] shadow"
+        >
+          <p class="text-blue-300 font-bold">Full-Time</p>
+          <h1 class="font-bold text-xl md:text-2xl tracking-tighter py-5">
+            Vue Front-End Developer
+          </h1>
+          <p class="tracking tighter text-left md:text-2xl">
+            A Vue developer is a software developer who specializes in using
+            Vue.js, a progressive JavaScript framework for building user
+            interfaces. Vue.js is known for its simplicity and flexibility,
+            making it a popular choice for creating web applications, especially
+            single-page applications (SPAs). Here is an opportunity for you
+          </p>
+
+          <h2 class="tracking-tighter text-green-500 py-10 md:text-xl">
+            $60K-70K /year.
+          </h2>
+          <div class="flex justify-between items-center">
+            <p class="text-red-300 py-2 tracking-tighter">Nyandarua, Ke</p>
+
+            <!-- button -->
+            <section>
+              <a
+                href="./Singlejob.html"
+                class="text-white w-full py-1 px-5 bg-green-700 text-center rounded transition duration-300"
+              >
+                Read More
+              </a>
+            </section>
+          </div>
+        </div>
+
+        <!-- cardtwo -->
+        <div class="w-full bg-slate-50 px-5 rounded py-5 md:w-[30%] shadow">
+          <p class="text-blue-300 font-bold">Full-Time</p>
+          <h1 class="font-bold text-xl md:text-2xl tracking-tighter py-5">
+            Senior Vue Developer
+          </h1>
+          <p class="tracking tighter text-left md:text-2xl">
+            Are you a seasoned developer with a knack for crafting
+            sophisticated, high-performance web applications? Step into the role
+            of Senior Vue Developer and become a key player in our mission user
+            experiences. Utilize your extensive expertise in Vue.js, Vuex, and
+            Vue Router to design and implement cutting-edge solutions that push
+            the boundaries of web development.
+          </p>
+
+          <h2 class="tracking-tighter text-green-500 py-10 md:text-xl">
+            $80K-90K /year.
+          </h2>
+          <div class="flex justify-between items-center">
+            <p class="text-red-300 py-2 tracking-tighter">Nyandarua, Ke</p>
+
+            <!-- button -->
+            <section>
+              <a
+                href="./Singlejob.html"
+                class="text-white w-full py-1 px-5 bg-green-700 text-center rounded transition duration-300"
+              >
+                Read More
+              </a>
+            </section>
+          </div>
+        </div>
+
+        <!-- cardThree -->
+        <div class="w-full bg-slate-50 px-5 rounded py-5 md:w-[30%] shadow">
+          <p class="text-blue-300 font-bold">Full-Time</p>
+          <h1 class="font-bold text-xl md:text-2xl tracking-tighter py-5">
+            Front-End Developer (vue)
+          </h1>
+          <p class="tracking tighter text-left md:text-2xl">
+            Are you an experienced developer passionate about crafting elegant,
+            high-performance web applications? Join our team as a Senior Vue
+            Developer and take the lead in revolutionizing user experiences.
+            With your expertise in Vue.js, Vuex, and Vue Router, you'll design
+            and implement cutting-edge solutions that set new standards for
+            functionality and aesthetics.
+          </p>
+
+          <h2 class="tracking-tighter text-green-500 py-10 md:text-xl">
+            $90K-100K /year.
+          </h2>
+
+          <div class="flex justify-between items-center">
+            <p class="text-red-300 py-2 tracking-tighter">Nyandarua, Ke</p>
+
+            <!-- button -->
+            <section>
+              <a
+                href="./Singlejob.html"
+                class="text-white w-full py-1 px-5 bg-green-700 text-center rounded transition duration-300"
+              >
+                Read More
+              </a>
+
+              
+            </section>
+          </div>
+        </div>
+
+        <!-- card-Four -->
+        <div
+          class="w-full max-h-max bg-slate-50 px-5 rounded py-5 md:w-[30%] shadow"
+        >
+          <p class="text-blue-300 font-bold">Full-Time</p>
+          <h1 class="font-bold text-xl md:text-2xl tracking-tighter py-5">
+            Vue Front-End Developer
+          </h1>
+          <p class="tracking tighter text-left md:text-2xl">
+            A Vue developer is a software developer who specializes in using
+            Vue.js, a progressive JavaScript framework for building user
+            interfaces. Vue.js is known for its simplicity and flexibility,
+            making it a popular choice for creating web applications, especially
+            single-page applications (SPAs). Here is an opportunity for you
+          </p>
+
+          <h2 class="tracking-tighter text-green-500 py-10 md:text-xl">
+            $60K-70K /year.
+          </h2>
+          <div class="flex justify-between items-center">
+            <p class="text-red-300 py-2 tracking-tighter">Nyandarua, Ke</p>
+
+            <!-- button -->
+            <section>
+              <a
+                href="./Singlejob.html"
+                class="text-white w-full py-1 px-5 bg-green-700 text-center rounded transition duration-300"
+              >
+                Read More
+              </a>
+            </section>
+          </div>
+        </div>
+
+        <!-- card- Five -->
+        <div class="w-full bg-slate-50 px-5 rounded py-5 md:w-[30%] shadow">
+          <p class="text-blue-300 font-bold">Full-Time</p>
+          <h1 class="font-bold text-xl md:text-2xl tracking-tighter py-5">
+            Senior Vue Developer
+          </h1>
+          <p class="tracking tighter text-left md:text-2xl">
+            Are you a seasoned developer with a knack for crafting
+            sophisticated, high-performance web applications? Step into the role
+            of Senior Vue Developer and become a key player in our mission user
+            experiences. Utilize your extensive expertise in Vue.js, Vuex, and
+            Vue Router to design and implement cutting-edge solutions that push
+            the boundaries of web development.
+          </p>
+
+          <h2 class="tracking-tighter text-green-500 py-10 md:text-xl">
+            $80K-90K /year.
+          </h2>
+          <div class="flex justify-between items-center">
+            <p class="text-red-300 py-2 tracking-tighter">Nyandarua, Ke</p>
+
+            <!-- button -->
+            <section>
+              <a
+                href="./Singlejob.html"
+                class="text-white w-full py-1 px-5 bg-green-700 text-center rounded transition duration-300"
+              >
+                Read More
+              </a>
+            </section>
+          </div>
+        </div>
+
+        <!-- card six -->
+        <div class="w-full bg-slate-50 px-5 rounded py-5 md:w-[30%] shadow">
+          <p class="text-blue-300 font-bold">Full-Time</p>
+          <h1 class="font-bold text-xl md:text-2xl tracking-tighter py-5">
+            Front-End Developer (vue)
+          </h1>
+          <p class="tracking tighter text-left md:text-2xl">
+            Are you an experienced developer passionate about crafting elegant,
+            high-performance web applications? Join our team as a Senior Vue
+            Developer and take the lead in revolutionizing user experiences.
+            With your expertise in Vue.js, Vuex, and Vue Router, you'll design
+            and implement cutting-edge solutions that set new standards for
+            functionality and aesthetics.
+          </p>
+
+          <h2 class="tracking-tighter text-green-500 py-10 md:text-xl">
+            $90K-100K /year.
+          </h2>
+
+          <div class="flex justify-between items-center">
+            <p class="text-red-300 py-2 tracking-tighter">Nyandarua, Ke</p>
+
+            <!-- button -->
+            <section>
+              <a
+                href="./Singlejob.html"
+                class="text-white w-full py-1 px-5 bg-green-700 text-center rounded transition duration-300"
+              >
+                Read More
+              </a>
+      </div>
+      
+    </section>
+
+    <script>
+      // JavaScript to toggle images and class
+      document.addEventListener("DOMContentLoaded", () => {
+        let menu = document.getElementById("menu");
+        let nav = document.getElementById("nav");
+
+        menu.addEventListener("click", () => {
+          if (menu.src.includes("open.png")) {
+            menu.src = "./media/close.png";
+            nav.classList.add("active");
+          } else {
+            menu.src = "./media/open.png";
+            nav.classList.remove("active");
+          }
+        });
+      });
+    </script>
   </body>
 </html>
