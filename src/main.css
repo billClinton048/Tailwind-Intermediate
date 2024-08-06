@@ -594,12 +594,12 @@ video {
   grid-column: span 2 / span 2;
 }
 
-.col-span-3 {
-  grid-column: span 3 / span 3;
-}
-
 .m-0 {
   margin: 0px;
+}
+
+.m-3 {
+  margin: 0.75rem;
 }
 
 .mx-5 {
@@ -671,6 +671,10 @@ video {
   height: 3.5rem;
 }
 
+.h-56 {
+  height: 14rem;
+}
+
 .h-72 {
   height: 18rem;
 }
@@ -704,6 +708,10 @@ video {
   width: 80%;
 }
 
+.w-56 {
+  width: 14rem;
+}
+
 .w-full {
   width: 100%;
 }
@@ -718,10 +726,6 @@ video {
 
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
-}
-
-.grid-cols-4 {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .flex-row {
@@ -809,12 +813,26 @@ video {
   background-color: rgb(6 2 120 / var(--tw-bg-opacity));
 }
 
+.bg-bgcolorTwo {
+  --tw-bg-opacity: 1;
+  background-color: rgb(163 188 255 / var(--tw-bg-opacity));
+}
+
+.bg-bghover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(199 217 240 / var(--tw-bg-opacity));
+}
+
 .p-0 {
   padding: 0px;
 }
 
 .p-2 {
   padding: 0.5rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
 }
 
 .p-5 {
@@ -887,11 +905,6 @@ video {
   line-height: 2rem;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
@@ -900,11 +913,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
 }
 
 .font-bold {
@@ -921,12 +929,11 @@ video {
 
 .text-textred {
   --tw-text-opacity: 1;
-  color: rgb(140 3 17 / var(--tw-text-opacity));
+  color: rgb(207 106 12 / var(--tw-text-opacity));
 }
 
-.text-bghover {
-  --tw-text-opacity: 1;
-  color: rgb(199 217 240 / var(--tw-text-opacity));
+.underline {
+  text-decoration-line: underline;
 }
 
 .shadow {
@@ -978,12 +985,34 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:col-span-1 {
+    grid-column: span 1 / span 1;
+  }
+
   .sm\:w-1\/3 {
     width: 33.333333%;
   }
 
+  .sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .sm\:flex-row {
     flex-direction: row;
+  }
+
+  .sm\:p-5 {
+    padding: 1.25rem;
+  }
+
+  .sm\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .sm\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
 
