@@ -598,8 +598,9 @@ video {
   margin: 0px;
 }
 
-.m-3 {
-  margin: 0.75rem;
+.mx-3 {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
 }
 
 .mx-5 {
@@ -625,6 +626,11 @@ video {
 .my-3 {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
+}
+
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
 }
 
 .mb-5 {
@@ -728,6 +734,10 @@ video {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -802,6 +812,14 @@ video {
 
 .rounded-lg {
   border-radius: 0.5rem;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
+.border {
+  border-width: 1px;
 }
 
 .border-b-2 {
@@ -915,6 +933,11 @@ video {
   line-height: 1.75rem;
 }
 
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -925,6 +948,11 @@ video {
 
 .tracking-tighter {
   letter-spacing: -0.05em;
+}
+
+.text-bgcolorTwo {
+  --tw-text-opacity: 1;
+  color: rgb(163 188 255 / var(--tw-text-opacity));
 }
 
 .text-textred {
@@ -1003,6 +1031,11 @@ video {
 
   .sm\:p-5 {
     padding: 1.25rem;
+  }
+
+  .sm\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
   }
 
   .sm\:text-5xl {
