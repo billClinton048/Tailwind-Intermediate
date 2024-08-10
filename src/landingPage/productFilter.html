@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../main.css" />
+    <title>filtersApi</title>
+  </head>
+  <body class="bg-bghover m-0 p-0 box-border">
+    <!-- The nav bar -->
+    <nav class="bg-bgcolor p-4 mb-6">
+      <div
+        class="container mx-auto flex justify-center items-center gap-8 flex-row"
+      >
+        <!-- search -->
+        <div class="relative w-full">
+          <input
+            type="text"
+            placeholder="Search here...."
+            id="srch"
+            class="bg-bgcolorTwo rounded-full text-textred p-1 pl-10 focus:w-full"
+          />
+          <img
+            class="absolute left-2 top-1/2 -translate-y-1/2"
+            src="./images/search.png"
+            alt=""
+          />
+        </div>
+
+        <!-- cart -->
+        <div class="relative">
+          <img class="w-10" src="./images/cart.png" alt="" />
+          <small
+            id="cartCount"
+            class="bg-bghover rounded-full text-xs text-textred w-5 h-5 absolute text-center -top-2 -right-2"
+            >0</small
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!-- main -->
+    <section class="max-w-7xl flex flex-col justify-center mx=auto md:flex-row">
+      <div class="w-full p-2 space-y-2 text-textred md:max-w-[10rem]">
+        <h2 class="text-xl">Filters</h2>
+        <h3 class="text-xl">Categories</h3>
+        <div id="filterContent" class="text-xl space-y-2">
+          <div>
+            <input type="checkbox" class="check" id="cameras" />
+            <label for="cameras">Cameras</label>
+          </div>
+          <div>
+            <input type="checkbox" class="check" id="smartphones" />
+            <label for="smartphones">Smartphones</label>
+          </div>
+          <div>
+            <input type="checkbox" class="check" id="televisions" />
+            <label for="televisions">Televisions</label>
+          </div>
+          <div>
+            <input type="checkbox" class="check" id="games" />
+            <label for="games">Games</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- product wrappers -->
+      <div
+        id="productsWrapper"
+        class="w-full max-w-4xl mx-auto grid grid-cols-2 gap-6 place-content-center p-4 md:grid-cols-3"
+      >
+       
+       
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
