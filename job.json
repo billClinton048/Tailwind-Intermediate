@@ -1,0 +1,74 @@
+[
+    {
+        "id" : 1,
+        "title": "Vue Front-End Developer",
+        "type" : "Full-Time",
+        "description" : "A Vue developer is a software developer who specializes in using Vue.js, a progressive JavaScript framework for building user interfaces. Vue.js is known for its simplicity and flexibility, making it a popular choice for creating web applications, especially single-page applications (SPAs). Here is an opportunity for you",
+        "location": "Nyandarua, Ke",
+        "salary" : "$60K-70K"
+    },
+    {
+        "id" : 2,
+        "title": "Senior Vue Developer",
+        "type" : "Full-Time",
+        "description" : "Are you a seasoned developer with a knack for crafting sophisticated,high-performance web applications? Step into the role of Senior Vue Developer and become a key player in our mission user experiences. Utilize your extensive expertise in Vue.js, Vuex, and Vue Router to design and implement cutting-edge solutions that push the boundaries of web development.",
+        "location": "Nakuru, ke",
+        "salary" : "$80K-90K "
+    },
+    {
+        "id" : 3,
+        "title": "Front-End Developer (vue)",
+        "type" : "Part-Time",
+        "description" : " Are you an experienced developer passionate about crafting elegant, high-performance web applications? Join our team Senior Vue Developer and take the lead in revolutionizing user experiences. With your expertise in Vue.js, Vuex, and Vue Router, you'll design and implement cutting-edge solutions that set new standards for functionality and aesthetics.",
+        "location": "Nairobi, Ke",
+        "salary" : "$90K-100K"
+    },
+    {
+        "id" : 1,
+        "title": "Vue Front-End Developer",
+        "type" : "Full-Time",
+        "description" : "A Vue developer is a software developer who specializes in using Vue.js, a progressive JavaScript framework for building user interfaces. Vue.js is known for its simplicity and flexibility, making it a popular choice for creating web applications, especially single-page applications (SPAs). Here is an opportunity for you",
+        "location": "Nyandarua, Ke",
+        "salary" : "$60K-70K"
+    },
+    {
+        "id" : 2,
+        "title": "Senior Vue Developer",
+        "type" : "Full-Time",
+        "description" : "Are you a seasoned developer with a knack for crafting sophisticated,high-performance web applications? Step into the role of Senior Vue Developer and become a key player in our mission user experiences. Utilize your extensive expertise in Vue.js, Vuex, and Vue Router to design and implement cutting-edge solutions that push the boundaries of web development.",
+        "location": "Nakuru, ke",
+        "salary" : "$80K-90K "
+    },
+    {
+        "id" : 3,
+        "title": "Front-End Developer (vue)",
+        "type" : "Part-Time",
+        "description" : " Are you an experienced developer passionate about crafting elegant, high-performance web applications? Join our team Senior Vue Developer and take the lead in revolutionizing user experiences. With your expertise in Vue.js, Vuex, and Vue Router, you'll design and implement cutting-edge solutions that set new standards for functionality and aesthetics.",
+        "location": "Nairobi, Ke",
+        "salary" : "$90K-100K"
+    },
+    {
+        "id" : 1,
+        "title": "Vue Front-End Developer",
+        "type" : "Full-Time",
+        "description" : "A Vue developer is a software developer who specializes in using Vue.js, a progressive JavaScript framework for building user interfaces. Vue.js is known for its simplicity and flexibility, making it a popular choice for creating web applications, especially single-page applications (SPAs). Here is an opportunity for you",
+        "location": "Nyandarua, Ke",
+        "salary" : "$60K-70K"
+    },
+    {
+        "id" : 2,
+        "title": "Senior Vue Developer",
+        "type" : "Full-Time",
+        "description" : "Are you a seasoned developer with a knack for crafting sophisticated,high-performance web applications? Step into the role of Senior Vue Developer and become a key player in our mission user experiences. Utilize your extensive expertise in Vue.js, Vuex, and Vue Router to design and implement cutting-edge solutions that push the boundaries of web development.",
+        "location": "Nakuru, ke",
+        "salary" : "$80K-90K "
+    },
+    {
+        "id" : 3,
+        "title": "Front-End Developer (vue)",
+        "type" : "Part-Time",
+        "description" : " Are you an experienced developer passionate about crafting elegant, high-performance web applications? Join our team Senior Vue Developer and take the lead in revolutionizing user experiences. With your expertise in Vue.js, Vuex, and Vue Router, you'll design and implement cutting-edge solutions that set new standards for functionality and aesthetics.",
+        "location": "Nairobi, Ke",
+        "salary" : "$90K-100K"
+    }
+]
